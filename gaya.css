@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background:url('latarA.png')
+}
+
+#wrapper{
+    width: 875px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+header{
+    background: url(images/header.jpg)repeat-x rgb(9, 126, 180);
+    height:70px;
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0;
+    overflow:hidden;
+    background-color: #0D5B09;
+}
+header img{ 
+    float: left;
+    width: 60px; 
+    height: 60px;
+    margin-right: 1px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#menu-utama{
+    margin-top:15px;
+    list-style: none;
+}
+
+#menu-utama  li{
+    float:left;
+    padding: 9px 20px;
+    border-right: 1px solid #ffffff;
+}
+
+#menu-utama li a{
+    color: #ffffff;
+    text-decoration:none;
+    padding: 2px 7px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: 0.1s;
+    margin:2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header form{
+    float:right;
+    margin-top: 7px;
+    margin-right: 19px;
+}
+
+#daftar-artikel{
+    width: 550px;
+    float: right;
+}
+
+header form input{
+    border: none;
+    height:20px;
+}
+
+#daftar-artikel{
+    width:570px;
+    float:left;
+}
+article{
+    background:#a53a0c;
+    padding: 35px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+article img{
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 165px;
+}
+
+article a{
+    color: #616060;
+    background: #DDDDDD;
+    padding: 3PX;
+    font-size: 10PX;
+    font-weight:bold;
+    margin-top: 10px:;
+    margin-right: 20px;
+    text-align: right;
+}
+
+article b{
+    color: #616060;
+    background: #DDDDDD;
+    padding: 3px;
+    font-size:12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+article p{
+    display:block;
+    text-align: right;
+    color: #636363;
+}
+
+aside{
+    width: 250px;
+    float: right;
+}
+
+aside h2{
+    font-size: 18px;
+    margin:10px o;
+}
+
+aside p{
+    line-height: 20px;
+    color: #636363;
+}
+
+aside ul li a{
+    color: #636363;
+    text-decoration: none;
+}
+
+#footer{
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #0D5B09;
+    padding: 5px;
+    color: #555555 ;
+}
+#ica{
+    background: none;
+}
+#ica img{
+    width: 250px;
+    height: 200px;
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ica h2{
+    background: none;
+    text-align: center;
+}
+#ica p{
+    width: 875px;
+    margin:0 auto;
+    overflow:hidden;
+}

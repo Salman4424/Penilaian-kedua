@@ -1,0 +1,188 @@
+/* atur ulang margin dan padding agar tidak
+menggunakan style bawaan dari browser  */
+*{
+	margin:0;
+	padding:0;
+	font-family:calibri, â€šsegoe ui, arial, tahoma, sans-serif;
+}
+/* background dari desain web berwarna abu-abu */
+body{
+	background: url(images/wp.png) repeat-x #DEB887;
+	background-size:cover;
+}
+
+#wrapper{
+	width : 780px;
+	margin: auto; /* auto menyebabkan rata tengah */
+	overflow:hidden; /* krn element child ada yg
+						make floating */
+}
+
+#header{
+	background: url(images/.jpg) repeat-x black;
+	height : 60px;
+	padding: 2px;
+	margin : 10px 0;
+	overflow : inherit;
+	border-radius: 5px;
+}
+#header img{
+	height: 30px;
+	width: auto;
+    margin: inherit 5px;
+}
+
+#menu-utama{
+	margin-left: 30px;
+	list-style:none;
+	margin-top:-10px;
+	display: flex;
+}
+
+#menu-utama li{
+	color: #ffffff;
+	text-decoration: none;
+	float:left;
+	padding:0% 4%;
+	border-right:2px solid #FFE4C4;
+	position:inherit;
+	border-radius: 10px;
+	transition: 0.1s;
+	margin: 2px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#menu-utama li a{
+	color : white;
+	text-decoration:none;
+}
+
+#menu-utama li a:hover{
+ background-color: #fff;
+    color: #000;
+}
+#header form{
+	float:right;
+	margin-top:-30px;
+	margin-right: 10px;
+}
+
+.txtsearch{
+	border:none;
+	height:10px;
+	position: right;
+}
+
+#daftar-artikel{
+	width:70%;
+	float:left;
+}
+.artikel{
+	background:white;
+	padding:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.artikel img{
+	float:left;
+	margin-right:9px;
+	width:50%;
+	height:165px
+}
+
+.artikel b{
+	color:#000000;
+	background:#DDDDDD;
+	padding:1px;
+	font-size:10px;
+	font-weight:bold;
+	margin-right:10px;
+	margin: 5px;
+}
+
+.artikel p{
+	margin:15px 0;
+}
+
+.artikel a{
+	display:block;
+	text-align:right;
+	color:#636363;
+}
+
+#sidebar{
+	width:25%;
+	float:right;
+}
+
+#sidebar h2{
+	font-size:18px;
+	margin:10px 0;
+	color: red;
+}
+
+#sidebar p{
+	line-height:15px;
+	color : white;
+}
+
+#sidebar ul li a{
+	color: white;
+	text-decoration:none;
+}
+
+#sidebar ul {
+	margin-left : 10px;
+}
+
+#footer{
+	clear:both;
+	margin:20px 0;
+	text-align:center;
+	background-color: black;
+	padding:5px;
+	color:white;
+}
+
+.form_contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#myform {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.full-width {
+    grid-column: 1 / 2;
+}
+
+#myform label {
+  display: block;
+}
+
+.form_contact p {
+  margin: 0;
+}
+
+#myform button,input, textarea {
+  padding: 0.2em;
+}
+
+button {
+  background: lightblue;
+  width: inherit;
+  border: 0;
+}
+
+button:hover, button:focus {
+  background: gold;
+  outline: 0;
+}
+
+.form_contact input:focus,textarea:focus {
+  outline: 3px solid gold;
+}
